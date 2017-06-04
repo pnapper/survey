@@ -1,68 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Survey</title>
-  </head>
-  <body>
-    <h1>Please enter the following information:</h1>
-     <div id="blanks">
-       <form>
-         <div class="form-group">
-           <label for="InputName">Name</label>
-           <input id="name" class="form-control" type="text" placeholder="Name">
-         </div>
-         <div class="form-group">
-           <label for="InputFood">Favorite Food</label>
-           <input id="food" class="form-control" type="text" placeholder="Foods">
-         </div>
-         <div class="form-group">
-          <label for="InputMusic">Favorite Music</label>
-          <div class="checkbox">
-             <label>
-               <input type="checkbox" value="">
-              Rock
-              </label>
-          </div>
-          <div class="checkbox">
-             <label>
-               <input type="checkbox" value="">
-              Pop
-             </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="">
-              Jazz
-             </label>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="">
-              Dance
-             </label>
-           </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="">
-              Electronic
-             </label>
-           </div>
-         </div>
-         <div class="form-group">
-           <label for="InputMovie">Favorite Movie</label>
-           <select class="form-control">
-             <option>Forrest Gump</option>
-             <option>The Last Temptation Of Christ</option>
-             <option>Shawshank Redemption</option>
-             <option>Blade Runner</option>
-             <option>Terminator</option>
-           </select>
-         </div>
-       </div>
-       <button type="submit" class="btn">Submit</button>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey</title>
+</head>
+<body>
+  <h1>Please enter the following information:</h1>
+  <div id="blanks">
+    <form>
+      <div class="form-group">
+        <label for="InputName">Name</label>
+      </div>
+      <input id="name" class="form-control" type="text" placeholder="Name">
+    </div>
+    <div class="radio">
+      <h5>Favorite Food</h5>
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+        Mexican
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Indian
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+        Italian
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+        Spanish
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+        Greek
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="InputMusic">Favorite Music</label>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Rock
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Pop
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Jazz
+        </label>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Dance
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Electronic
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="InputMovie">Favorite Movie</label>
+        <select class="form-control:focus">
+          <option>"Pick one"</option>
+          <option>Forrest Gump</option>
+          <option>The Last Temptation Of Christ</option>
+          <option>Shawshank Redemption</option>
+          <option>Blade Runner</option>
+          <option>Terminator</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="InputColor">Favorite Color</label>
+        <input id="color" name="color" class = "form-control" type="color">
+      </div>
+      <button type="submit" class="btn">Submit</button>
     </form>
   </body>
-</html>
+  </html>
