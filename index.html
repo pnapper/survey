@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1>Please enter the following information:</h1>
+     <div id="blanks">
+       <form>
+         <div class="form-group">
+           <label for="InputName">Name</label>
+           <input id="name" class="form-control" type="text" placeholder="Name">
+         </div>
+         <div class="form-group">
+           <label for="InputFood">Favorite Food</label>
+           <input id="food" class="form-control" type="text" placeholder="Foods">
+         </div>
+         <div class="form-group">
+          <label for="InputMusic">Favorite Music</label>
+          <div class="checkbox">
+             <label>
+               <input type="checkbox" value="">
+              Rock
+              </label>
+          </div>
+          <div class="checkbox">
+             <label>
+               <input type="checkbox" value="">
+              Pop
+             </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Jazz
+             </label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Dance
+             </label>
+           </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Electronic
+             </label>
+           </div>
+         </div>
+         <div class="form-group">
+           <label for="InputMovie">Favorite Movie</label>
+           <select class="form-control">
+             <option>Forrest Gump</option>
+             <option>The Last Temptation Of Christ</option>
+             <option>Shawshank Redemption</option>
+             <option>Blade Runner</option>
+             <option>Terminator</option>
+           </select>
+         </div>
+       </div>
+       <button type="submit" class="btn">Submit</button>
+    </form>
+  </body>
+</html>
